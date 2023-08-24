@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 20px;
+    color: #333;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 1200px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    text-align: center;
+}
+
+th {
+    background-color: #444;
+    font-weight: bold;
+    color: white;
+}
+
+td {
+    background-color: #fff;
+}
+
+.subject-cell {
+    background-color: #f6a40e;
+    color: white;
+    font-weight: bold;
+}
+
+.lunch-cell {
+    background-color: #55c474;
+    color: white;
+    font-weight: bold;
+}
+
+.lab-cell {
+    background-color: #7e9ff3;
+    color: white;
+    font-weight: bold;
+}
+
+.seminar-cell {
+    background-color: #ff5b5b;
+    color: white;
+    font-weight: bold;
+}
+
+.sports-cell {
+    background-color: #888;
+    color: white;
+    font-weight: bold;
+}
+
+.day-cell {
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+}
+
+.time-cell {
+    background-color: #666;
+    color: white;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    table {
+        font-size: 12px;
+    }
+}
